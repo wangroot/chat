@@ -1,0 +1,59 @@
+body{margin:0;padding:0;font-size:12px;color:#666;font-family:微软雅黑;}
+td,th{font-size:12px;}
+a:link,a:visited{text-decoration:none;}
+a:hover{text-decoration: none;color: #ff7e00;}
+/*--*/
+.newsList li{padding:6px 0 6px 20px;margin:6px 0;border-bottom:1px dotted #ccc;background:url('../new/icon.png') -84px -222px no-repeat;}
+.newsList .number{display:none;width:30px;height:30px;font-size:14px;float:left;background:#f5f5f5;}
+.newsList .title{font-size:14px;}
+.newsList li .date{float:right;font-style:normal;font-size:10px;color:#999;}
+/*新闻/评论/公告详细*/
+.news_title{padding-bottom:15px;font-size:24px;font-family:微软雅黑;border-bottom:1px dotted #eee;color:#ffa733;}
+.back_bot{background:#f8f8f8;margin:15px 0;padding:5px;}
+.back{display:none;}
+.news_title .date{font-style:normal;font-size:12px;color:#999;display:block;padding-top:8px;}
+.newsContent{margin:30px 0;font-size:14px;line-height:1.8em;}
+.newsContent .share{margin:25px 0;float:right;}
+.content img{max-width:718px;}
+/*持仓比例*/
+.hx_list dl{margin:0;padding:0;}
+.hx_list dt{clear:both;font-weight:bold;font-size:12px;line-height:20px;margin-top:3px;}
+.hx_list dd{margin:0;padding:0;background:#f8f8f8;height:15px;line-height:15px;font-size:10px;color:#8b8b8b;font-family:arial;}
+.hx_list dd span{display:block;float:left;width:34px;text-align:center;}
+.hx_list dd span.colord20c0c{border-right:1px solid #eee;}
+.hx_list dd strong{display:block;float:left;height:15px;background:red;border-left:1px solid #fff;}
+.hx_list dd b{display:block;float:left;height:15px;text-align:right;background:green;}
+/*首页价格行情*/
+.yincang{display: none;}
+.dataTab2{width:100%;}
+.hqData_cur{width:100%;height:53px;text-align:center;display: none;}
+.hqData_cur .pname{color:#555;width:80px;line-height:1.0em;}
+.pname span{font-weight:bold;font-size:16px;line-height:1.4em;text-decoration:underline;}
+.pprice{color:#666;font:30px arial;}
+.pup{color:#666;width:90px;}
+.up .pprice,.up .pup{color:#43bb46;}
+.down .pprice,.down .pup{color:#FF0000;}
+.hqData{width:100%;}
+.hqData td{color:#000;padding:4px;border-bottom:1px solid #dae3e6;text-align:center;}
+.hqData th{color:#999;padding:6px 4px;font-weight:normal; border-bottom:1px solid #dae3e6;text-align:center;}
+.item,.item span{white-space:nowrap;}
+.STYLE1 {color: #666666}
+.color1 {color: #FF0000}
+.color {color: #008000}
+.flash1{background:#FEDEC8;}
+.flash2{background:#E8FED7;}
+/*财经日历*/
+.rili_tab01{width:100%;}
+.rili_tab01 th,.rili_tab01 td{padding:6px;font-size:12px;font-weight:normal;border-bottom:1px solid #ccc;}
+.rili_tab01 th{font-weight:bold;background:#f8f8f8;border-bottom:1px solid #ccc;color:#666;}
+.tool_title{font-size:14px;margin:20px 0 10px 0;}
+.tool_title img{display:none;}
+.gao{color:red;}
+.zhong{color:orange;}
+.di{color:green;}
+/*pages*/
+#page_panel {font-size:14px;color:#999;margin-top:20px;padding:5px;}
+.multi_page .page_btn {display:inline;padding:7px 12px;margin-left:2px;color:#ff7e00;background-color:#fff;border:1px solid #dfdfdf;}
+.multi_page .page_btn:hover {border:1px solid #ff7e00;}
+.multi_page .cur {color:#fff;background-color:#ff7701;border:1px solid #ff7701;font-weight:bold;}
+.clear{clear:both;}

@@ -1,0 +1,125 @@
+* {margin: 0;padding: 0;list-style: none;}
+a {text-decoration: none;color: #999999;}
+.main {margin: 0 auto;width: 1200px;height: 1460px;}
+.videoAndChat {width: 1200px;height: 840px;float: left;}
+.videoAndChat_left {width: 840px;height: 835px;float: left;}
+.videoAndChat_left .videoAndChat_title {width: 810px;height: 40px;margin-top: 30px;margin-left: 20px;}
+.videoAndChat_left .videoAndChat_title h2{font-size: 24px; float: left;}
+.videoAndChat_left .videoAndChat_title span{ float: right; padding-top: 15px;}
+.videoAndChat_left .videoAndChat_title span a{ padding-left: 30px;}
+.videoAndChat_left .video {width: 840px;height: 555px;margin-left: 20px;}
+.videoAndChat_left .videoAndChat_intro {width: 840px;height: 205px;margin-left: 3px;}
+#menu {overflow: hidden;margin: 15px 0 15px 20px;width: 820px;height: 190px;background-color: #343434;}
+#menu #nav {display: block;width: 840px;list-style: none;}
+#menu #nav li {float: left;}
+#menu #nav li a {display: block;line-height: 35px;text-decoration: none;text-align: center;width: 420px;font-size: 22px;color: #FFF;}
+#menu #nav li .selected{background:#666666;}
+#menu #nav li a:hover {color: #FC3}
+#menu_con {width: 840px;height: 135px;border-top:none;background-color:#343434;}
+#menu_con .ul li {text-align: center;position:relative;}
+#menu_con .ul li img{position:absolute;top:0px;left:6px;}
+
+.tag {padding: 10px;overflow: hidden;float:left width:840px;}
+.tag ul {float: left;}
+.tag .li {padding-left: 60px;line-height: 35px;text-align: center;}
+.tag .li select {width: 78px;}
+.tag .ul {line-height: 35px;}
+.tag .ul li {color: #F00;}
+.tag ul li span {font-size: 22px;line-height: 35px;height: 35px;color: #FFF;}
+.tag .li li {color: #FFF;}
+.tag ul li input {background-color: #F93;width: 90px;font-size: 18px;border-radius: 5px;color: #FFF;}
+.tag ul li a {text-decoration: none;}
+.selected {color: #F90}
+
+.tag .tags ul{ width:840px;}
+.tag .tags ul li{ float:left; width:410px; margin-bottom:10px;}
+.tag .tags img{float:left;}
+.tag .tags strong{color:#ff8100;padding:0 10px 0 10px; font-size:20px}
+.tag .tags span{color:#ff8100;}
+.tag .tags p{overflow:hidden; width:280px%;color:#FFF;padding:0 10px 0 10px;}
+
+
+
+
+.videoAndChat_right {width: 340px;height: 840px;float: right;position: relative;}
+.video-title{ margin-top: 20px;}
+.video-title ul li {float: left;list-style: none;width: 113px;height: 50px;font-size: 24px;line-height: 50px;text-align: center; border-radius: 5px ;}
+.video-title ul li:hover {background-color: #ff8400;}
+.hover{ background-color: #FF8400;}
+.video-lt li {width: 330px;height: 630px;color: #000;}
+.video-lt li:first-child {background: white;}
+.video-lt li:nth-child(2) {background: white;}
+.video-lt li:nth-child(3) {background: white;}
+
+
+
+
+.video-title.interaction {width: 340px;height: 50px;position: absolute;bottom: 0;}
+.review {width: 1200px;height: 570px;}
+.review_title {width: 1200px;height: 70px;margin-left: 20px;}
+.review h1 {height: 70px;margin-left: 20px;}
+.review .span {display: block;float: right;margin-top: 25px;}
+.review .span a:hover{color:black}
+.review_teacher {width: 1200px;height: 500px;position: relative;bottom: 0px;margin-left: 20px}
+.review_teacher_one {float: left;width: 298px;margin-top: 30px;}
+.review_teacher_one p span {float: left;margin-bottom: 20px;}
+.review_teacher_one p{font-size:18px;margin:10px 0 5px 0;}
+.review_teacher_one p a{}	
+.review_teacher_one p a:hover {color: #ff8100;}
+.review_teacher_one img {display: block;margin: 5px 0px 5px 0px}
+.review_teacher_two {float: left;width: 298px;margin-top: 30px;height: 480px;}
+.review_teacher_two span {margin-bottom: 20px;float: left;}
+.review_teacher_two span img {display: block}
+.review_teacher_two span p {display: inline;}
+.review_teacher_three {float: left;width: 298px;margin-top: 30px;height: 480px;}
+.review_teacher_three span {margin-bottom: 20px;float: left;}
+.review_teacher_three span img {display: block}
+.review_teacher_three span p {display: inline;}
+.review_teacher_four {float: left;width: 298px;height: 480px;margin-top: 30px;}
+.review_teacher_four span {margin-bottom: 20px;float: left;}
+.review_teacher_four span img {display: block}
+.review_teacher_four span p {display: inline;}
+.review_teacher ul li {width: 270px;height: 210px;float: left;}
+.review_teacher_two ul li img {margin: 20px 10px 20px 20px;}
+.review_teacher_one ul li img {margin: 60px 10px 20px 20px;}
+.video-gg{ font-size: 12px; padding-top: 20px; text-align: center; color: #FF0000;}
+.video-gg a{ color: #999999;}
+.video-gg a:hover{ color: #000000;}
+
+.talkAbout {width: 330px;height: 600px; background-color: #dfdfdf; margin-top: 20px; padding: 10px;}
+.lts_right3 { padding: 3px 0;position: relative;height: auto;overflow: hidden; padding-right: 15px; font-size: 10px;}
+.to_m {background: #fff;width: 320px;}
+.name {background: #3f98fd;color: #fff;margin-left: 3px;margin-right: 5px; padding: 2px 8px;text-align: center; text-decoration: none;height: 24px;float: left;line-height: 24px;border-radius: 3px;margin-bottom: 5px;}
+.RoomUserRole {float: left;width: 30px;height: 30px; display: block;margin-left: 3px;border-radius: 3px;}
+.lts_right3 span {border-radius: 3px;line-height: 24px;float: left;margin-bottom: 5px;word-break: break-all;word-wrap: break-word;padding: 2px;}
+.time {color: #fff;margin-right: 0;text-align: center;width: 54px;height: 24px;background-color: #999999; border-radius: 5px;}
+
+.talkAbout li{}
+
+
+.talkBox {width: 340px;height: 75px;background: #eee;overflow: hidden;}
+.talk1 {margin-top: 3px;overflow: hidden;}
+.talk1 p {float: left;}
+.talk1 p.wenimg {margin: 4px 0 0 8px;}
+.talk1 p.zanImg {margin: 0 0 0 4px;}
+.talk1 p.coffoImg {margin: 6px 0 0 3px;}
+.talk1 p.hignStopimg {margin: 5px 0 0 7px;}
+.talk1 p.laoshiImg {margin: 4px 0 0 5px;}
+.sendgiftBox {width: 102px;height: 26px;border: 1px solid #bccad1;float: left;margin: 2px 0 0 6px;}
+.girfNum {display: block;float: left;}
+.girfNum, .girfNum select {width: 50px;height: 26px;}
+input.giftSend, input.payforGift, .send1 {background: #7ab6e0;color: #fff;border: none;width: 52px;height: 26px;}      /*赠送*/
+input.payforGift {float: left;height: 28px;margin: 2px 0 0 4px;}
+.talk2 {overflow: hidden;margin-top: 4px;}
+p.smileFace {float: left;margin: 4px 6px 0 9px;}
+.fayanfont {width: 214px;height: 24px;border: 1px solid #bccad1;float: left;background: #fff;overflow: hidden;}
+.fayanfont a {color: #76aace;margin: 5px 0 0 5px;float: left;font-size: 12px;}
+input.fonrLogin {border: none;outline: none;height: 14px;margin-top: 5px;}
+.send1 {margin: 0 4px 0 6px;float: left;}
+.xianhua {width: 26px;height: 26px;background: url(../images/smallbiaoq_23.jpg);border: none;float: left;}
+.peopleNum {overflow: hidden;}
+.peopleNum img {float: left;margin: 3px 10px 5px 0px;}
+.peopleNum span {float: left;}
+.peopleNum p {margin-top: 5px;}
+.peopleNum span {color: #999999}
+

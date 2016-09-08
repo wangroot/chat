@@ -1,0 +1,60 @@
+/*live*/
+.live-wrap {background: #ccc;}
+.liveshow {background: #092341 url(../images/bg_liveshow.png) no-repeat center top;height: 638px;position: relative;overflow: hidden;}
+.layout {height: 579px;padding-top: 20px; width: 1100px;margin: 0 auto;}
+.video_chat {position: relative;width: 1080px;}
+#video {background: #292A2C;height: 548px;width: 830px;float: left;display: inline;position: relative;}
+.loadbox {width: 830px;height: 548px;background: url(./images/bg_video.gif) no-repeat center center;position: absolute;visibility: visible;}
+#chat {position: absolute;right: 0;top: 0;background: #113054;height: 545px;width: 237px;float: left;display: inline;color: #5e93d0;}
+#chat img{width: 100%; height: 100%;}
+.limit {height: 473px;overflow: hidden;}
+.into {position: absolute;right: 0;bottom: 0;height: 55px;line-height: 55px; text-align: center;background: #ffbc61;display: inline-block;width: 237px;color: #9b490d;font-size: 18px;}
+/*live end*/
+/*live-list*/
+.live-list{ width: 1100px; margin: 0 auto; margin-top: 10px; padding-bottom: 30px;}
+.live-list-left{ width: 800px; float: left;}
+.live-titie{height: 60px; padding-left: 10px; background: url(../images/live-title-icon.png) no-repeat; padding-bottom: 10px;}
+.live-titie h2{font-size: 26px; color: #333333; float: left; padding:5px 15px;}
+.live-titie span{ float: left; padding-right: 20px;  font-size: 14px; padding-top: 20px; color: #969696;}
+.live-room{ width: 800px;}
+.live-room li{ width: 245px; float: left; height: 200px; padding: 0 10px;}
+.live-room li img{ width: 100%;height: 140px;}
+.live-room li a { color: #2e2e2e;}
+.live-room li a:hover{ color: #ff8100;}
+.live-room li a p{ font-size: 18px; padding-left: 5px; padding-bottom: 5px;}
+.live-room li a span{ padding-left: 17px; background: url(../images/flag_icons.png) no-repeat; color: #969696;}
+
+.live-list-right{ width: 298px; float: right;}
+.live-titie-table{height: 156px;  width: 280px;}
+#live-titie-tab{border-bottom: 2px #333 solid;  height: 30px; width: 280px; }
+#live-titie-tab li{ font-size: 18px;height: 30px;width: 140px;  float: left; }
+#live-titie-tab li a {color: #000000; width: 120px;}
+.current{border-bottom:2px #FF8100 solid;}
+.live-titie-box{ display: none; width: 280px; float: left;}
+.live-titie-box li{width: 120px;float: left;  margin: 5px;}
+.bg{padding: 5px; background-color: #FF8100; border-radius: 5px;}
+.live-titie-box .bg a{color: #ffffff;}
+.live-titie-box .bg a:hover{color: #333;}
+.live-titie-box li a{ width: 120px; height: 30px; text-align: center; color: #333;}
+.live-titie-box li span{ padding-left: 12px;color: #333333;}
+
+.live-img-box{ width: 270px; padding-top: 10px;}
+.live-img-box img{width:56px; height: 56px; float: left; padding-right: 10px;}
+.live-img-box a{ color: #333333;}
+.live-img-box a:hover{color: #FF8100;}
+.live-img-box dl{font-size: 16px; color: #000000; padding-bottom: 5px;}
+.live-img-box dd{font-size: 12px; color: #919191;}
+
+.live-li-title{ font-size: 18px;height: 40px;width: 315px;  float: left;  border-bottom: 2px #000000 solid;}
+.live-li-title a{ color: #000000;}
+.live-li-title a:hover{color: #FF8100;}
+.live-li-box{ width: 290px; padding-top: 30px; height: 250px;}
+.live-li-box ul{ padding-top: 30px;}
+.live-li-box li{ overflow: hidden;float: left; width: 290px; height: 24px; line-height: 24px; padding-left: 20px; background: url(../images/ico-2.gif)  no-repeat scroll 7px 10px;}
+.live-li-box li a{ font-size: 14px; color: #333333;}
+.live-li-box li a:hover{ color: #FF8100;}
+.live-li-box li span{ float: right; color: #999999; font-size: 12px;}
+
+/*live-list end*/
+
+.main-index{ width: 1100px;height: 600px; margin: 0 auto;}

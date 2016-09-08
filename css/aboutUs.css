@@ -1,0 +1,58 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	color:#000;
+	}
+.main{
+	padding-top:50px;
+	width:1920px;
+	height:830px;
+	background:url(../bg_color.png) repeat-x;
+}
+.main_list{
+	margin:0 auto;
+	width:1000px;
+	height:830px;	
+	}
+.main_list .main_list_left{
+	width:160px;
+	height:100%;
+	float:left;
+	}
+
+.main_list .main_list_left ul li{
+	font-size:14px;
+	height:34px;
+	line-height:34px;
+	border-bottom:#999 1px solid;
+	text-align:center;
+	display:block;
+	}
+.main_list .main_list_left ul  li:hover{
+	background-color:black;
+	}
+.main_list .main_list_left  li:hover a{
+	background-color:black;
+	color:#FFF;	
+		}
+.main_list_right{
+	float:left;
+	margin-left:20px;
+	}
+.main_list_right_top{
+	width:800;
+	height:34px;
+	line-height:34px;
+	border-bottom:#999 1px solid;
+	}
+.main_list_right .main_list_right_top span{
+	font-size:14px;
+	}
+.main_list_right .main_list_right_bottom {
+	margin:30px auto 30px 20px; }
+.main_list_right .main_list_right_bottom p{
+		margin-top:35px;
+		}

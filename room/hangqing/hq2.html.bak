@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0044)http://info.hx9999.com/cn/price_of_gold.html -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="./include/jquery.js"></script>
+<title>诺云财经直播系统行情</title>
+</head>
+<body>
+<div id="hangqing" style="margin-top:5px;height:144px">
+                    <style>
+                        .red{color:#f00;}
+                        .green{color:#00B259;}
+                        .datatable{padding-top: 5px}
+                        .datatable td{color: #000; font-size: 14px; border-bottom: 1px solid #ccc;}
+                        .datatable .t3 span{text-align: center;width: 85%; padding: 1px 3px; color: #fff;border-radius: 3px;display: block;}
+                    </style>
+
+                    <div style="height:144px; padding:3px 0;background-color: #ECECEC;">
+                        <table class="datatable" width="100%" cellpadding="0" cellspacing="0">
+                            <tbody>
+								<tr class="A1">
+                                    <td class="t1">现货黄金</td>
+                                    <td class="t2" style="color: green;">1150.89</td>
+                                    <td class="t3"><span style="background-color: green;">-0.21%</span></td>
+                                </tr>
+                                <tr class="A2">
+                                    <td class="t1">现货白银</td>
+                                    <td class="t2" style="color: green;">15.40</td>
+                                    <td class="t3"><span style="background-color: green;">-1.09%</span></td>
+                                </tr>
+                                <tr class="A3">
+                                    <td class="t1">美元指数</td>
+                                    <td class="t2" style="color: green;">95.47</td>
+                                    <td class="t3"><span style="background-color: green;">-0.33%</span></td>
+                                </tr>
+                                <tr class="A4">
+                                    <td class="t1">原油指数</td>
+                                    <td class="t2" style="color: red;">41.01</td>
+                                    <td class="t3"><span style="background-color: red;">+0.07%</span></td>
+                                </tr>
+                            </tbody></table>
+                        <script type="text/javascript">
+                            function strFormat(str)
+                            {
+                                if (str.indexOf(".") > 0)
+                                {
+                                    var minNumber = str.substr(str.indexOf(".") + 1, str.length);
+                                    var folglen = minNumber.indexOf("+") > 0 ? minNumber.indexOf("+") : minNumber.indexOf("-") > 0 ? minNumber.indexOf("-") : 0;
+                                    var newStr = str.substr(0, str.indexOf(".") + folglen);
+                                    return newStr;
+                                }
+                                else
+                                {
+                                    return str;
+                                }
+                            }
+                            function formatFloat(src, pos)
+                            {
+                                return parseFloat(Math.round(src * Math.pow(10, pos)) / Math.pow(10, pos)).toFixed(2);
+                            }
+                            function getZd(now, low)
+                            {
+                                var newstr = parseFloat(now - low).toFixed(2);
+                                return newstr;
+                            }
+                            function getMarketData() {
+                                $.get('GetHanqQing.php', function(data) {
+                                    for (var i = data.length - 1; i >= 0; i--) {
+                                        var code = data[i];
+										var t3 = code[2], color = 'red';
+										if (code[3] != '1') {
+											color = 'green';
+										}
+										$('.datatable .A' + (i+1) + ' .t3 span').html(t3);
+										$('.datatable .A' + (i+1) + ' .t3 span').css('background-color', color);
+										$('.datatable .A' + (i+1) + ' .t2').html(code[1]);
+										$('.datatable .A' + (i+1) + ' .t2').css('color', color);
+                                    };
+                                }, 'json');
+                            }
+                            //function getMarketData() {
+                            //    $.get('/getdata.php', function(data) {
+                            //        for (var i = data.length - 1; i >= 0; i--) {
+                            //           var code = data[i];
+                            //            if (code.Code == "AG" || code.Code == "PT" || code.Code == "PD") {
+                            //                var t3 = '', color = 'red';
+                            //                if (code.fLastClose == '0.00') {
+                            //                    t3 = '0.00';
+                            //                } else {
+                            //                    t3 = formatFloat(getZd(strFormat(code.fNow), strFormat(code.fLastClose)) / strFormat(code.fLastClose) * 100, 2);
+                            //                }
+                            //                if (formatFloat(t3, 2) < 0) {
+                            //                    color = 'green';
+                            //                }
+                            //                $('.datatable .' + code.Code + ' .t3 span').html(t3);
+                            //                $('.datatable .' + code.Code + ' .t3 span').css('background-color', color);
+                            //                $('.datatable .' + code.Code + ' .t2').html(formatFloat(strFormat(code.fNow), 2));
+                            //                $('.datatable .' + code.Code + ' .t2').css('color', color);
+                            //            }
+                            //        };
+                            //    }, 'json');
+                            //}
+                            getMarketData();
+                            setInterval(getMarketData, 3000);
+                        </script>
+                        <div style="text-align: center; padding-top: 2px;"><a target="_blank" href="http://www.jin10.com/"><img src="/themes/v2/images/btn.gif"></a></div>
+                    </div>
+                </div>
+				</body></html>

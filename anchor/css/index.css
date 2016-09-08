@@ -1,0 +1,19 @@
+#main{width: 100%;}
+.clear{clear: both;}
+
+.left{float: left;width: 65%;height: 500px;}
+
+.right{float: right;width: 33%;}
+.right .btn{width: 100%;}
+
+.right .btn .btn_click{width: 80px;height: 32px;border: solid 1px #efefef;}
+
+.right .data{width: 100%;}
+.right .data table th{width: 50px;text-align: right;}
+
+#main table td .txt{border: solid 1px #999;width: 200px;height: 26px;}
+
+.heqiang_heqiang{
+    font-size: 14px;
+    line-height: 22px;
+}

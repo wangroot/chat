@@ -1,0 +1,62 @@
+*{margin: 0; padding: 0;}
+body{ background-color: #fff; font-family: "微软雅黑"; font-size: 14px;list-style: none; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,table,th,td,button{padding:0;margin:0;}
+fieldset,img,button{border:0;}
+table{border-collapse:collapse;border-spacing:0;}
+ol,ul{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;text-align:left;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;}
+a{text-decoration:none;outline:none;}
+a:hover{text-decoration:none;}
+.clear{height:0px;width:0px;line-height:0px;font-size:0px;margin:0px;padding:0px;clear:both;}
+button{cursor:pointer;}
+em{font-style:normal;}
+
+
+/**header**/
+.header{ width: 100%; border-bottom:#ff8400 2px solid; height: 92px;}
+.top { margin: 0 auto; width: 1440px;  border-bottom-color: #ff8400;}
+.nav{ padding-right: 20px; float: left; width: 720px; }
+.nav img{ width:229px; height:78px ; float: left; padding-top: 10px;}
+.logo{ width: 229px; height:78px ; padding-right: 30px; float: left;}
+.nav ul{ font-size: 18px;}
+.nav li{ float: left; height: 24px; margin: 30px 10px; padding: 5px; text-align: center; width: 70px;}
+.nav li a{ color: #000000; width: 60px;height: 15px; font-size: 16px;}
+.on {background-color: #FF8400;border-radius: 5px;  }
+.nav li.on a{color: #fff;}
+.search-input {color: #fff;height: 60px;line-height: 60px; float: left; margin-top: 20px; }
+.search-div{border-radius: 10px; background: #f7f7f7;border: 1px solid #cacbcc;width: 215px;height: 36px;line-height: 36px}
+.search-div a{ color: #A9A9A9; font-size: 14px; height: 30px; line-height: 30px; border-left: solid 1px #A9A9A9 ; padding-left: 15px;}
+.search-input .search{margin: 0 5px;padding: 0 10px;width: 100px;height: 26px;line-height: 16px;font-size: 14px;color: #a9a9a9;border: none; outline: 0;}
+.nav-login{color: #979797;height: 90px;line-height: 90px; font-size: 16px; float: left; padding-left: 50px;}
+.nav-login a{padding: 0 8px;color: #979797;vertical-align: middle;display: inline-block;font-size: 14px; height: 90px; line-height: 90px;}
+.userimg{ width: 24px; height: 24px;}
+.action{}
+/**header**/
+
+/**footer**/
+.footer{width:100%;height:435px;background:#232328;}
+.footer .foot-menu{width:1100px;height:217px;margin:0 auto;padding-top:42px;}
+.footer .foot-menu dl{float:left;}
+.footer .foot-menu dl dt{height:18px;padding-top:32px;padding-left:60px;font-size:18px;line-height:100%;color:rgba(204,204,204,0.8);color:#bcbcbd\0;
+*color:#bcbcbd;margin-bottom:23px;}
+.footer .foot-menu dl dd{display:inline-block;*display:block;*float:left;width:110px;font-size:12px;line-height:24px;color:#656569;padding-bottom:3px;}
+.footer .foot-menu dl dd a{display:inline-block;font-size:12px;line-height:24px;color:#656569;}
+.footer .foot-menu dl.fot-first{width:412px;}
+.footer .foot-menu dl.fot-first dt{background:url(../images/footer-ico01.jpg) no-repeat left bottom;}
+.footer .foot-menu dl.fot-second{width:352px;}
+.footer .foot-menu dl.fot-second dt{background:url(../images/footer-ico02.jpg) no-repeat left bottom;}
+.footer .foot-menu dl.fot-three{width:336px;}
+.footer .foot-menu dl.fot-three dt{background:url(../images/footer-ico03.jpg) no-repeat left bottom;}
+.footer .foot-menu dl.fot-three dd{ width:auto;}
+.footer .foot-menu dl.fot-three dd img{ display:inline-block; float:left;}
+.footer .foot-menu dl.fot-three dd img.mr35{ margin-right:35px;}
+.footer .foot-copy{width:100%;height:174px;background:rgba(23,23,23,0.3);}
+.footer .foot-copy .copyright{width:1100px;margin:0 auto;}
+.footer .foot-copy .copyright div{width:100%;padding-top:19px;padding-bottom:20px;text-align:center;vertical-align:middle;}
+.footer .foot-copy .copyright div a{display:inline-block;font-size:14px;line-height:14px;color:rgba(255,255,255,0.6);color:#adadad\0;text-align:center;padding-left:6px;}
+.footer .foot-copy .copyright div a i{display:inline-block;height:14px;color:#2f2f33;padding-left:10px;}
+.footer .foot-copy .copyright p{width:100%;border-top:1px solid #2a2a2e;padding-top:20px;font-size:12px;line-height:100%;color:rgba(255,255,255,0.1);color:#474749;text-align:center;}
+/**footer**/
+
